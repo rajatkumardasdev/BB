@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content{
+  padding-top: 78px;
+  min-height: 100vh;
+}
+.custom-navbar {
+    background-color: #fffcfc6c;
+  /* backdrop-filter: blur(8px); */
+  padding: 0 0;
+  border-bottom: 2px solid #ff004f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.custom-navbar .nav-link {
+  color: rgb(0, 0, 0) !important;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ff004f !important;
+}
+
+.navbar-toggler {
+  background: white;
+  border-radius: 6px;
+}
+
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.9);
+  border: none;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background: #ff004f;
+  color: white;
+}
+.logo-img{
+  width: 160px;
+  height: 50px;
+  object-fit:cover;
+}
+/* Footer */
+
+.footer-section{
+  background: #000;
+  padding: 70px 0 30px;
+  color: white;
+}
+
+.footer-logo{
+  width: 170px;
+  object-fit: contain;
+}
+
+.footer-tagline{
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.footer-menu li a{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.footer-menu li a:hover{
+  color: #ff004f;
+}
+
+.playstore-btn{
+  width: 180px;
+}
+
+.footer-bottom{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-bottom p{
+  margin: 0;
+  color: #9f9f9f;
+  font-size: 16px;
+}
+
+.social-icons{
+  display: flex;
+  gap: 25px;
+}
+
+.social-icons a{
+  color: white;
+  font-size: 28px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover{
+  color: #ff004f;
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+  .footer-menu{
+    gap: 20px;
+  }
+
+  .footer-bottom{
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+@media(max-width:576px){
+
+  .footer-menu{
+    flex-direction: column;
+  }
+
+  .footer-logo{
+    width: 150px;
+  }
+
+  .playstore-btn{
+    width: 150px;
+  }
+
+}
+
+/* Products Images */
+.product-img{
+  height: 220px;
+  object-fit: cover;
+}
