@@ -19,7 +19,7 @@ const FindLoads = () => {
     const tonData = {
   "1 Ton": { price: 25, material: "Small Parcel, Grocery, Boxes, Cartoon Boxes" },
 
-  "2 Ton": { price: 30, material: "FMCG, Vegetables, Household Goods, Cartoon Boxes" },
+  "2 Ton": { price: 29, material: "FMCG, Vegetables, Household Goods, Cartoon Boxes" },
   "3 Ton": { price: 30, material: "FMCG, Vegetables, Household Goods, Cartoon Boxes" },
 
   "4 Ton": { price: 35, material: "Furniture, Cement, Tiles, Hardware, Cartoon Boxes" },
@@ -28,10 +28,10 @@ const FindLoads = () => {
 
   "6 Ton": { price: 45, material: "Agriculture Goods, Packed Goods, Food Items, Cartoon Boxes" },
 
-  "7 Ton": { price: 50, material: "FMCG, Textiles, Cartons, Packed Goods, Cartoon Boxes" },
+  "7 Ton": { price: 48, material: "FMCG, Textiles, Cartons, Packed Goods, Cartoon Boxes" },
   "8 Ton": { price: 50, material: "FMCG, Textiles, Cartons, Packed Goods, Cartoon Boxes" },
   "9 Ton": { price: 50, material: "FMCG, Textiles, Cartons, Packed Goods, Cartoon Boxes" },
-  "10 Ton": { price: 50, material: "FMCG, Textiles, Cartons, Retail Stock, Cartoon Boxes" },
+  "10 Ton": { price: 55, material: "FMCG, Textiles, Cartons, Retail Stock, Cartoon Boxes" },
 
   "11 Ton": { price: 55, material: "Iron Rods, Timber, FMCG Goods, Cartoon Boxes" },
   "12 Ton": { price: 55, material: "Iron Rods, Timber, FMCG Goods, Cartoon Boxes" },
@@ -53,16 +53,16 @@ const FindLoads = () => {
   "25 Ton": { price: 85, material: "Coal, Heavy Construction Goods, Minerals, Cartoon Boxes" },
 
   "26 Ton": { price: 90, material: "Stone, Mining Materials, Steel, Aggregates, Cartoon Boxes" },
-  "27 Ton": { price: 90, material: "Stone, Mining Materials, Steel, Aggregates, Cartoon Boxes" },
-  "28 Ton": { price: 90, material: "Stone, Mining Materials, Steel, Aggregates, Cartoon Boxes" },
+  "27 Ton": { price: 91, material: "Stone, Mining Materials, Steel, Aggregates, Cartoon Boxes" },
+  "28 Ton": { price: 91, material: "Stone, Mining Materials, Steel, Aggregates, Cartoon Boxes" },
   "29 Ton": { price: 90, material: "Stone, Mining Materials, Steel, Aggregates, Cartoon Boxes" },
-  "30 Ton": { price: 90, material: "Stone, Mining Materials, Steel, Aggregates, Cartoon Boxes" },
+  "30 Ton": { price: 87, material: "Stone, Mining Materials, Steel, Aggregates, Cartoon Boxes" },
 
-  "31 Ton": { price: 110, material: "Heavy Machinery, Oversize Cargo, Industrial Equipment" },
-  "32 Ton": { price: 110, material: "Heavy Machinery, Oversize Cargo, Industrial Equipment" },
-  "33 Ton": { price: 110, material: "Heavy Machinery, Oversize Cargo, Industrial Equipment" },
-  "34 Ton": { price: 110, material: "Heavy Machinery, Oversize Cargo, Industrial Equipment" },
-  "35 Ton": { price: 110, material: "Heavy Machinery, Oversize Cargo, Industrial Equipment" },
+  "31 Ton": { price: 105, material: "Heavy Machinery, Oversize Cargo, Industrial Equipment" },
+  "32 Ton": { price: 105, material: "Heavy Machinery, Oversize Cargo, Industrial Equipment" },
+  "33 Ton": { price: 107, material: "Heavy Machinery, Oversize Cargo, Industrial Equipment" },
+  "34 Ton": { price: 108, material: "Heavy Machinery, Oversize Cargo, Industrial Equipment" },
+  "35 Ton": { price: 109, material: "Heavy Machinery, Oversize Cargo, Industrial Equipment" },
 
   "36 Ton": { price: 120, material: "Heavy Machinery, Oversize Cargo, Industrial Equipment" },
   "37 Ton": { price: 120, material: "Heavy Machinery, Oversize Cargo, Industrial Equipment" },
