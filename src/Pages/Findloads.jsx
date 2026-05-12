@@ -126,7 +126,7 @@ const FindLoads = () => {
         setTon("");
         setBodyType("");
 
-        setMessage("✅ 5 Loads Found Successfully");
+        // setMessage("✅ 5 Loads Found Successfully");
         setMessageType("success");
 
         setTimeout(() => setMessage(""), 3000);
@@ -140,7 +140,7 @@ const FindLoads = () => {
     // BOOK ORDER
     const handleBookOrder = (item) => {
         if (!isRegistered) {
-            setMessage("❌ User is not restered, Please register to book orders");
+            setMessage("❌ User is not registered. Please register to book an order.");
             setMessageType("error");
 
             setTimeout(() => setMessage(""), 3000);
