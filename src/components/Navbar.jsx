@@ -11,13 +11,13 @@ const Navbar = () => {
                 <div className="container">
 
                     {/* Logo Image */}
-                    <Link className="navbar-brand" href="#">
+                    {/* <Link className="navbar-brand" href="#">
                         <img
                             src={logo}
                             alt="logo"
                             className="logo-img"
                         />
-                    </Link>
+                    </Link> */}
 
                     {/* Toggle Button */}
                     <button
