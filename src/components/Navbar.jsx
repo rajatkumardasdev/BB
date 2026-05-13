@@ -47,7 +47,7 @@ const Navbar = () => {
                             </li>
 
                              <li className="nav-item">
-                                <Link to="findloads" className="nav-link text-white fw-bold">
+                                <Link to="/findloads" className="nav-link text-white fw-bold">
                                     Find Loads
                                 </Link>
                             </li>
