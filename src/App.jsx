@@ -12,6 +12,7 @@ import Products from './Pages/Products'
 import Terms from './Pages/Terms'
 import Findloads from './Pages/Findloads'
 import Helpline from './Pages/Helpline'
+import Estimate from './Pages/Estimate'
 
 
 const App = () => {
@@ -33,6 +34,8 @@ const App = () => {
           <Route path='/findloads' element={<Findloads />} />
 
           <Route path='/helpline' element={<Helpline />} />
+
+          <Route path='/estimate' element={<Estimate/>} />
 
         </Route>
 

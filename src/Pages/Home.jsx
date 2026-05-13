@@ -25,6 +25,17 @@ const Home = () => {
             </div>
           </div>
 
+          <div className="col-md-4">
+            <div className="card shadow-lg border-0 rounded-4 h-100 text-center p-4">
+              <h3 className="mb-3">Estimate price</h3>
+              {/* <p>Search truck loads easily across India.</p> */}
+
+              <Link to="/estimate" className="btn btn-primary mt-3">
+                Open
+              </Link>
+            </div>
+          </div>
+
           {/* Products */}
           <div className="col-md-4">
             <div className="card shadow-lg border-0 rounded-4 h-100 text-center p-4">

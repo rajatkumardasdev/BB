@@ -52,6 +52,12 @@ const Navbar = () => {
                                 </Link>
                             </li>
 
+                             <li className="nav-item">
+                                <Link to="estimate" className="nav-link text-white fw-bold">
+                                    Estimate
+                                </Link>
+                            </li>
+
                             <li className="nav-item">
                                 <Link to="/terms" className="nav-link text-white" href="#">
                                     Conditions

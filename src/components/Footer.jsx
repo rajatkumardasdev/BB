@@ -1,5 +1,5 @@
 import "react";
-import logo from "../assets/download.png";
+// import logo from "../assets/download.png";
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
 
             {/* Logo */}
             <div className="col-lg-3 col-md-12 text-center text-lg-start">
-              <img src={logo} alt="logo" className="footer-logo" />
+              {/* <img src={logo} alt="logo" className="footer-logo" /> */}
 
               <p className="footer-tagline mt-2">
                 Tarakki Ka Naya Tareeka
