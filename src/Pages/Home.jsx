@@ -1,4 +1,4 @@
-import "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
 
       <div className="container mt-5">
         <h1 className="text-center mb-5 fw-bold">
-          Welcome to BLACKBUCK
+          {/* Welcome to BLACKBUCK */}
         </h1>
 
         <div className="row g-4">
@@ -19,9 +19,9 @@ const Home = () => {
               <h3 className="mb-3">Find Loads</h3>
               <p>Search truck loads easily across India.</p>
 
-              <a href="/findloads" className="btn btn-primary mt-3">
+              <Link to="/findloads" className="btn btn-primary mt-3">
                 Open
-              </a>
+              </Link>
             </div>
           </div>
 
