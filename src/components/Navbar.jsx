@@ -47,7 +47,7 @@ const Navbar = () => {
                             </li>
 
                              <li className="nav-item">
-                                <Link to="findloads" className="nav-link text-white fw-bold" href="#">
+                                <Link to="findloads" className="nav-link text-white fw-bold">
                                     Find Loads
                                 </Link>
                             </li>
@@ -59,7 +59,7 @@ const Navbar = () => {
                             </li>
 
                             <li className="nav-item">
-                                <Link to="/terms" className="nav-link text-white" href="#">
+                                <Link to="/terms" className="nav-link text-white" >
                                     Conditions
                                 </Link>
                             </li>
