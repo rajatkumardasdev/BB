@@ -15,7 +15,7 @@ body{
   min-height: 100vh;
 }
 .custom-navbar {
-    background-color: #fffcfc6c;
+    background-color: #fffcfc;
   /* backdrop-filter: blur(8px); */
   padding: 0 0;
   border-bottom: 2px solid #ff004f;
