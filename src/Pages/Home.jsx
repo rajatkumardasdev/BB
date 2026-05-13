@@ -17,7 +17,7 @@ const Home = () => {
           <div className="col-md-4">
             <div className="card shadow-lg border-0 rounded-4 h-100 text-center p-4">
               <h3 className="mb-3">Find Loads</h3>
-              <p>Search truck loads easily across India.</p>
+              {/* <p>Search truck loads easily across India.</p> */}
 
               <Link to="/findloads" className="btn btn-primary mt-3">
                 Open
@@ -40,7 +40,7 @@ const Home = () => {
           <div className="col-md-4">
             <div className="card shadow-lg border-0 rounded-4 h-100 text-center p-4">
               <h3 className="mb-3">Products</h3>
-              <p>View all truck and transport products.</p>
+              {/* <p>View all truck and transport products.</p> */}
 
               <a href="/products" className="btn btn-success mt-3">
                 Open
@@ -52,7 +52,7 @@ const Home = () => {
           <div className="col-md-4">
             <div className="card shadow-lg border-0 rounded-4 h-100 text-center p-4">
               <h3 className="mb-3">Helpline</h3>
-              <p>Contact support and customer care.</p>
+              {/* <p>Contact support and customer care.</p> */}
 
               <a href="/helpline" className="btn btn-danger mt-3">
                 Open
@@ -63,8 +63,8 @@ const Home = () => {
           {/* Terms */}
           <div className="col-md-4">
             <div className="card shadow-lg border-0 rounded-4 h-100 text-center p-4">
-              <h3 className="mb-3">Terms & Conditions</h3>
-              <p>Read all terms and conditions carefully.</p>
+              {/* <h3 className="mb-3">Terms & Conditions</h3>
+              <p>Read all terms and conditions carefully.</p> */}
 
               <a href="/terms" className="btn btn-dark mt-3">
                 Open
