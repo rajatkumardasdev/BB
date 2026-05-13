@@ -42,9 +42,9 @@ const Home = () => {
               <h3 className="mb-3">Products</h3>
               {/* <p>View all truck and transport products.</p> */}
 
-              <a href="/products" className="btn btn-success mt-3">
+              <Link to="/products" className="btn btn-success mt-3">
                 Open
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -54,9 +54,9 @@ const Home = () => {
               <h3 className="mb-3">Helpline</h3>
               {/* <p>Contact support and customer care.</p> */}
 
-              <a href="/helpline" className="btn btn-danger mt-3">
+              <Link to="/helpline" className="btn btn-danger mt-3">
                 Open
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -66,9 +66,9 @@ const Home = () => {
               {/* <h3 className="mb-3">Terms & Conditions</h3>
               <p>Read all terms and conditions carefully.</p> */}
 
-              <a href="/terms" className="btn btn-dark mt-3">
+              <Link to="/terms" className="btn btn-dark mt-3">
                 Open
-              </a>
+              </Link>
             </div>
           </div>
 
