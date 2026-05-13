@@ -1,13 +1,70 @@
-import 'react'
-import Navbar from '../components/Navbar'
+import "react";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      
-    </>
-  )
-}
 
-export default Home
+      <div className="container mt-5">
+        <h1 className="text-center mb-5 fw-bold">
+          Welcome to BLACKBUCK
+        </h1>
+
+        <div className="row g-4">
+
+          {/* Find Loads */}
+          <div className="col-md-4">
+            <div className="card shadow-lg border-0 rounded-4 h-100 text-center p-4">
+              <h3 className="mb-3">Find Loads</h3>
+              <p>Search truck loads easily across India.</p>
+
+              <a href="/findloads" className="btn btn-primary mt-3">
+                Open
+              </a>
+            </div>
+          </div>
+
+          {/* Products */}
+          <div className="col-md-4">
+            <div className="card shadow-lg border-0 rounded-4 h-100 text-center p-4">
+              <h3 className="mb-3">Products</h3>
+              <p>View all truck and transport products.</p>
+
+              <a href="/products" className="btn btn-success mt-3">
+                Open
+              </a>
+            </div>
+          </div>
+
+          {/* Helpline */}
+          <div className="col-md-4">
+            <div className="card shadow-lg border-0 rounded-4 h-100 text-center p-4">
+              <h3 className="mb-3">Helpline</h3>
+              <p>Contact support and customer care.</p>
+
+              <a href="/helpline" className="btn btn-danger mt-3">
+                Open
+              </a>
+            </div>
+          </div>
+
+          {/* Terms */}
+          <div className="col-md-4">
+            <div className="card shadow-lg border-0 rounded-4 h-100 text-center p-4">
+              <h3 className="mb-3">Terms & Conditions</h3>
+              <p>Read all terms and conditions carefully.</p>
+
+              <a href="/terms" className="btn btn-dark mt-3">
+                Open
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Home;
