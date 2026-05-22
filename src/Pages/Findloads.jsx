@@ -400,7 +400,7 @@ const FindLoads = () => {
                                 {/* BOOK */}
                                 <button
                                     className="btn w-100 mt-4 rounded-pill fw-bold "
-                                    style={{  background: "#E63946",
+                                    style={{  background: "#e63947a0",
                                 color: "#fff", }}
                                     onClick={() => handleBookOrder(item)}
                                 >
