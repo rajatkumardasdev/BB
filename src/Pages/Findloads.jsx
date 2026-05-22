@@ -321,7 +321,7 @@ const FindLoads = () => {
                                 {/* TOP */}
                                 <div className="d-flex justify-content-between align-items-center mb-3">
 
-                                    <span className="badge bg-primary px-3 py-2">
+                                    <span className="badge bg-success px-3 py-2">
                                         Available Load
                                     </span>
 
@@ -400,7 +400,7 @@ const FindLoads = () => {
                                 {/* BOOK */}
                                 <button
                                     className="btn w-100 mt-4 rounded-pill fw-bold "
-                                    style={{  background: "#575cf2",
+                                    style={{  background: "#159d6d",
                                 color: "#fff", }}
                                     onClick={() => handleBookOrder(item)}
                                 >
