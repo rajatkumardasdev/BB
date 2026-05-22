@@ -31,7 +31,7 @@ const App = () => {
 
           <Route path='/terms' element={<Terms />} />
 
-          <Route path='/findloads' element={<Findloads />} />
+          {/* <Route path='/findloads' element={<Findloads />} /> */}
 
           <Route path='/helpline' element={<Helpline />} />
 
