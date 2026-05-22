@@ -321,7 +321,7 @@ const FindLoads = () => {
                                 {/* TOP */}
                                 <div className="d-flex justify-content-between align-items-center mb-3">
 
-                                    <span className="badge bg-primery px-3 py-2">
+                                    <span className="badge bg-primary px-3 py-2">
                                         Available Load
                                     </span>
 
