@@ -10,7 +10,7 @@ import Layout from './components/Layout'
 import Home from './Pages/Home'
 import Products from './Pages/Products'
 import Terms from './Pages/Terms'
-// import Findloads from './Pages/Findloads'
+import Findloads from './Pages/Findloads'
 import Helpline from './Pages/Helpline'
 import Estimate from './Pages/Estimate'
 
@@ -31,7 +31,7 @@ const App = () => {
 
           <Route path='/terms' element={<Terms />} />
 
-          {/* <Route path='/findloads' element={<Findloads />} /> */}
+          <Route path='/findloads' element={<Findloads />} />
 
           <Route path='/helpline' element={<Helpline />} />
 
